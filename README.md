@@ -1,16 +1,10 @@
-# infra – Betrieb (Ops)
+# infra – Deployment (Platzhalter)
 
 Teil von **M324 Projekt 4: Ticketsystem**. Team-Repo: [m324-ap23a-team3/team](https://github.com/m324-ap23a-team3/team)
 
-Code Owner: Team `ops` (Maintain); Team `dev` hat Write (Branch + Pull Request).
+Rechte: Team `devops` (alle Mitglieder, Maintain). `main` ist geschützt, Änderungen nur über Pull Request mit 1 Approval.
 
-Gehört hierher (gemäss Praxis/Readme.md):
-
-- Deployment-Konfiguration (z.B. `docker-compose.yml` für ms1, ms2 und je eine MariaDB)
-- Deploy-Pipeline
-- Secrets **nur** als GitHub Actions Secrets/Variables, nie im Code
-- Smoke Tests aus den Akzeptanzkriterien
-- Monitoring und Runbook
+Dieses Repository ist ein Platzhalter. Wo die Deployment-Konfiguration für das Gesamtsystem liegt (hier oder in `ms1`/`ms2`), entscheiden wir in [P4 Continuous Deployment](https://gitlab.com/ch-tbz-it/Stud/m324/-/blob/nuy/Projekt/P4_Praxis_CD.md).
 
 Images aus den Build-Pipelines:
 
